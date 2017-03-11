@@ -7,7 +7,7 @@
 ## 使用方法
 
 ``` bash
-git clone git@github.com:jirengu-inc/animating-resume.git
+git clone git@github.com:githubdaxueseng/CBlog.git
 cd animating-resume
 npm install
 npm run dev
