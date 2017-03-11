@@ -1,4 +1,4 @@
-<template>
+﻿<template>
   <div id="app">
     <StyleEditor ref="styleEditor" :code="currentStyle"></StyleEditor>
     <ResumeEditor ref="resumeEditor" :markdown="currentMarkdown" :enableHtml="enableHtml"></ResumeEditor>
@@ -24,8 +24,10 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是方方 
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
+* 大家好，我是小明
+* 全中国那么多小明，谁知道你是哪个小明哦
+* 我呀，陈爱明嘛。。。
+* 话说还有两年就要毕业了，我还什么都不会，好方啊，好多公司都在招聘，看来我得准备份简历呀。
 * 说做就做，我也来写一份简历！
 */
 
@@ -117,10 +119,10 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `陈爱明
 ----
 
-资深前端工程师，资深前端讲师，现在在 [饥人谷](http://jirengu.com) 教前端课程。
+资深前端老司机，略懂后端，要使劲感谢 [慕课网](http://www.iommc.com) 的无私传教啊。
 
 技能
 ----
@@ -130,10 +132,10 @@ html{
 * Node.js 开发
 * 前端授课
 
-工作经历
+项目经历
 ----
 
-1. [饥人谷](http://jirengu.com)
+1. 西荣宠宝宝
 2. 腾讯即时通讯平台部
 3. 阿里巴巴B2B部门
 4. 彩程知人项目组
@@ -141,10 +143,16 @@ html{
 链接
 ----
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
+* [GitHub](https://github.com/GithubDaxueseng)
+* [我的文章](额，暂时没有好的文章分享)
 
-> 如果你喜欢这个效果，Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+取得联系
+----
+
+* [QQ:1273391194](tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1273391194)
+* Email:1273391194cam@gmail.com
+
+> 如果你喜欢这个效果，Fork [我的项目](https://github.com/GithubDaxueseng/CBlog)，记得star哦！
 
 `
       }
